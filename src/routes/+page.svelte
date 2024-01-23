@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="w-full mt-56 text-center">
+  <img src="https://mangadex.org/img/brand/mangadex-logo.svg" alt="mangadex" srcset=""
+    class="h-[256px] m-auto"
+  >
+  <h1 class="text-xl font-bold">
+    Here where I would manage my manga reading list if I have one
+  </h1>
+</div>

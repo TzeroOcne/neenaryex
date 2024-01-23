@@ -1,0 +1,34 @@
+#sidebar-root {
+  transition: width ease 0.5s;
+  @apply w-[64px];
+}
+
+#sidebar-root.show {
+  @apply w-[256px];
+}
+
+#sidebar-root #sidebar-wrapper {
+  @apply p-4;
+}
+
+#sidebar-group a {
+  text-decoration: none;
+  @apply hover:bg-nnrygray-800;
+}
+
+#sidebar-group a span, #sidebar-item {
+  @apply text-nnry-900;
+}
+
+a#sidebar-item {
+  @apply mt-4 overflow-hidden p-0 m-0 relative h-[32px];
+  @apply hover:bg-nnrygray-600 hover:outline-white hover:outline;
+}
+
+a#sidebar-item[active=true] {
+  @apply bg-nnrygray-600;
+}
+
+#sidebar-item > span {
+  @apply ml-[48px];
+}
